@@ -3,7 +3,7 @@ import {chai} from '../../core/tests.ts';
 
 var expect = chai.expect;
 
-describe('Unit tests for DropDown component', () => {
+describe('Unit tests for WordGame component', () => {
 
     describe('2 + 4', () => {
 

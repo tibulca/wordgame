@@ -1,1 +1,1 @@
-require('../services/stock-service.ts');
+require('../services/words-feed-service.ts');

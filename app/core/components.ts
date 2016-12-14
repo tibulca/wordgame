@@ -1,1 +1,1 @@
-require('../components/dropdown/dropdown.ts');
+require('../components/wordgame/wordgame.ts');
