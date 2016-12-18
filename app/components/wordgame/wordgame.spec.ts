@@ -1,5 +1,5 @@
 import '../../core/tests.ts';
-import {chai} from '../../core/tests.ts';
+import {chai} from '../../core/tests';
 
 var expect = chai.expect;
 

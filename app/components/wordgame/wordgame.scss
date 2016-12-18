@@ -1,7 +1,47 @@
+$matchColor: #2fad16;
+$animationDuration: 0.3s;
+
 [component="WordGame"] {
   &.wordgame {
-    span {
-      color: darkolivegreen !important;
+    .wordMatch {
+      font-weight: bold;
+      color: $matchColor;
+      transition: $animationDuration;
+    }
+
+    .noWordMatch {
+      font-weight: normal;
+      color: black;
+      transition: $animationDuration;
+    }
+
+    .score {
+      height: 30px;
+      display: inline-block;
+    }
+
+    .wordMatchScore {
+      font-weight: bold;
+      font-size: larger;
+      color: $matchColor;
+      transition: $animationDuration;
+    }
+
+    .noWordMatchScore {
+      font-weight: normal;
+      transition: $animationDuration;
+      color: black;
+    }
+
+    .startButton {
+      width: 100%;
+    }
+
+    .gameProgress {
+      height: 50px;
+      .col-md-6 {
+        padding: 0!important;
+      }
     }
   }
 }

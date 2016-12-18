@@ -1,7 +1,16 @@
-body {
-  color: red;
-}
-
 :fullscreen a {
   display: flex;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.wordPuzzleGame {    
+    margin: auto;
+    width: 500px;
+    padding: 10px 40px 10px 40px;
+    background-color: #e3f4fc;
+    border: black solid 1px;
 }

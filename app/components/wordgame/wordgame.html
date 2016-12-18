@@ -1,4 +1,47 @@
 <div component="WordGame" class="wordgame">
-    <span>{{ ctrl.word.unmangled }}</span>
-    <span>{{ ctrl.word.mangled }}</span>
+    <div ng-if="ctrl.game">
+        <div class="form-group">
+            <label for="letters">Letters:</label>
+            <span id="letters" class="form-control" disabled>
+                {{ ctrl.game.getWordLetters() }}
+            </span>
+        </div>
+        <div class="form-group">
+            <label for="userInputWord">Word:</label>
+            <input 
+                type="text"
+                id="userInputWord"
+                name="userInputWord"
+                ng-model="ctrl.inputText" 
+                ng-change="ctrl.inputChanged()"
+                ng-class="{'wordMatch': ctrl.wordMatch, 'noWordMatch': !ctrl.wordMatch, 'form-control': true }"
+            />
+        </div>
+        <div class="form-group gameProgress" ng-if="ctrl.game.isInProgress">
+            <div class="col-md-6">
+                <label>Current word max score:</label>
+                <div class="score">{{ctrl.game.getCurrentStepMaxScore()}}</div>
+                
+                <label>Current word score:</label>
+                <div class="score" ng-class="{'wordMatchScore': ctrl.wordMatch, 'noWordMatchScore': !ctrl.wordMatch }">
+                    {{ctrl.game.getCurrentStepScore()}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label>Remaining time:</label>
+                <span>{{ctrl.game.getRemainingTime()}}</span>
+            </div>
+        </div>
+        <div>
+            <label>{{ctrl.game.isInProgress ? 'Total Score' : 'Final score'}}:</label>
+            <div class="score" ng-class="{'wordMatchScore': ctrl.wordMatch, 'noWordMatchScore': !ctrl.wordMatch }">
+                {{ctrl.game.getTotalScore()}}
+            </div>
+        </div>        
+    </div>
+    <button class="btn btn-primary startButton" 
+            ng-click="ctrl.startGame()" 
+            ng-disabled="ctrl.game.isInProgress">
+        Start
+    </button>
 </div>

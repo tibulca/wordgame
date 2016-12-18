@@ -5,31 +5,44 @@ export interface Word {
     mangled: string
 }
 
-export class WordsFeedService extends HttpService {
-    $q: ng.IQService;
+const testWords: Word[] = [
+    { unmangled: 'pizza', mangled: 'zpaiz' },
+    { unmangled: 'milk', mangled: 'klmi' },
+    { unmangled: 'egg', mangled: 'geg' },
+    { unmangled: 'pasta', mangled: 'aastp' },
+    { unmangled: 'soup', mangled: 'posu' },
+    { unmangled: 'steak', mangled: 'keast' },
+    { unmangled: 'salad', mangled: 'laads' },
+];
+
+export interface IWordsFeedService {
+    getNextWord(): ng.IPromise<Word>;
+}
+
+export class WordsFeedMockService extends HttpService 
+                              implements IWordsFeedService {
+    private currentIndex: number;
 
     static $inject = ['$http', '$q'];
 
-    constructor($http: ng.IHttpService, $q: ng.IQService) {
+    constructor($http: ng.IHttpService, private $q: ng.IQService) {
         super($http);
         this.$q = $q;
+        this.currentIndex = 0;
     }
 
-    getWord(): ng.IPromise<Word> {
-        // todo: get a random word from firebase
-
+    public getNextWord(): ng.IPromise<Word> {
         var deferred = this.$q.defer();
         
-        const word = {
-            unmangled: 'pizza',
-            mangled: 'zpaiz'
-        };
+        if (this.currentIndex + 1 > testWords.length) {
+            this.currentIndex = 0;
+        }
 
-        setTimeout(() => { deferred.resolve({ data: word }); }, 1000);
+        setTimeout(() => { deferred.resolve({ data: testWords[this.currentIndex++] }); }, 1000);
  
         return deferred.promise;
     }
 }
 
 angular.module('app.services')
-       .service('wordsFeedService', WordsFeedService);
+       .service('wordsFeedService', WordsFeedMockService);
