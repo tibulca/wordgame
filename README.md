@@ -1,3 +1,15 @@
+# Word puzzle game
+demo: [https://tibulca.github.io/wordgame/build/](https://tibulca.github.io/wordgame/build/)
+remaining tasks:
+* currently there is only a mock implementation of IWordFeedService. A new implementation that will use Firebase has to be implemented
+* unit tests are not complete (only 3 for demo purpose were created). The services and components are not covered yet.
+* the UX has to be improved
+* the Game class can be splited into an entity + a service
+
+**`Below is the readme of the starter kit I used to develop the game app.`**
+
+---
+
 # angular-next-starter-kit
 Seed project for developing angular 1.x applications in preparation for migrating on to Angular 2.0
 
