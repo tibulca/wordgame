@@ -1,1 +1,1 @@
-require('../services/words-feed-service.ts');
+require('../services/wordsfeedservice.ts');

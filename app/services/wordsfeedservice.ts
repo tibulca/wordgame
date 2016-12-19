@@ -1,9 +1,6 @@
 import {HttpService} from "../common/service";
-
-export interface Word {
-    unmangled: string,
-    mangled: string
-}
+import {IWordsFeedService} from "./iwordsfeedservice";
+import {Word} from "../entities/word";
 
 const testWords: Word[] = [
     { unmangled: 'pizza', mangled: 'zpaiz' },
@@ -14,10 +11,6 @@ const testWords: Word[] = [
     { unmangled: 'steak', mangled: 'keast' },
     { unmangled: 'salad', mangled: 'laads' },
 ];
-
-export interface IWordsFeedService {
-    getNextWord(): ng.IPromise<Word>;
-}
 
 export class WordsFeedMockService extends HttpService 
                               implements IWordsFeedService {
