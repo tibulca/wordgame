@@ -4,7 +4,7 @@ import {BaseComponent} from "../../common/component";
 import {BindingType} from '../../common/bindingTypes';
 import {WordsFeedMockService} from "../../services/wordsfeedservice";
 import {Word} from "../../entities/word";
-import {Game} from "./game";
+import {Game} from "../../game/game";
 
 class WordGameController {
     public inputText: string;

@@ -1,5 +1,5 @@
-import {WordsFeedMockService} from "../../services/wordsfeedservice";
-import {Word} from "../../entities/word";
+import {WordsFeedMockService} from "../services/wordsfeedservice";
+import {Word} from "../entities/word";
 import {GameStep} from "./gamestep";
 
 export class Game {

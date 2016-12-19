@@ -1,4 +1,4 @@
-import {Word} from "../../entities/word";
+import {Word} from "../entities/word";
 
 export class GameStep {
     word: Word;
