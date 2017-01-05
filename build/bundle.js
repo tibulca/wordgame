@@ -49,7 +49,7 @@
 	__webpack_require__(26);
 	__webpack_require__(28);
 	__webpack_require__(31);
-	__webpack_require__(87);
+	__webpack_require__(86);
 	angular.element(document).ready(function () {
 	    angular.bootstrap(document, ['app'], {
 	        strictDi: true
@@ -88,8 +88,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../css-loader/index.js!./../resolve-url-loader/index.js!./../sass-loader/index.js?sourceMap!./lib/bootstrap.styles.loader.js?{\"bootstrapVersion\":3,\"useCustomIconFontPath\":false,\"extractStyles\":false,\"styleLoaders\":[\"style\",\"css\",\"sass\"],\"styles\":[\"mixins\",\"normalize\",\"print\",\"glyphicons\",\"scaffolding\",\"type\",\"code\",\"grid\",\"tables\",\"forms\",\"buttons\",\"component-animations\",\"dropdowns\",\"button-groups\",\"input-groups\",\"navs\",\"navbar\",\"breadcrumbs\",\"pagination\",\"pager\",\"labels\",\"badges\",\"jumbotron\",\"thumbnails\",\"alerts\",\"progress-bars\",\"media\",\"list-group\",\"panels\",\"wells\",\"responsive-embed\",\"close\",\"modals\",\"tooltip\",\"popovers\",\"carousel\",\"utilities\",\"responsive-utilities\"],\"scripts\":[\"transition\",\"alert\",\"button\",\"carousel\",\"collapse\",\"dropdown\",\"modal\",\"tooltip\",\"popover\",\"scrollspy\",\"tab\",\"affix\"],\"configFilePath\":\"/Users/cipriantibulca/repos/wordgame/node_modules/bootstrap-loader/.bootstraprc-3-default\",\"bootstrapPath\":\"/Users/cipriantibulca/repos/wordgame/node_modules/bootstrap-sass\",\"bootstrapRelPath\":\"../bootstrap-sass\"}!./no-op.js", function() {
-				var newContent = require("!!./../css-loader/index.js!./../resolve-url-loader/index.js!./../sass-loader/index.js?sourceMap!./lib/bootstrap.styles.loader.js?{\"bootstrapVersion\":3,\"useCustomIconFontPath\":false,\"extractStyles\":false,\"styleLoaders\":[\"style\",\"css\",\"sass\"],\"styles\":[\"mixins\",\"normalize\",\"print\",\"glyphicons\",\"scaffolding\",\"type\",\"code\",\"grid\",\"tables\",\"forms\",\"buttons\",\"component-animations\",\"dropdowns\",\"button-groups\",\"input-groups\",\"navs\",\"navbar\",\"breadcrumbs\",\"pagination\",\"pager\",\"labels\",\"badges\",\"jumbotron\",\"thumbnails\",\"alerts\",\"progress-bars\",\"media\",\"list-group\",\"panels\",\"wells\",\"responsive-embed\",\"close\",\"modals\",\"tooltip\",\"popovers\",\"carousel\",\"utilities\",\"responsive-utilities\"],\"scripts\":[\"transition\",\"alert\",\"button\",\"carousel\",\"collapse\",\"dropdown\",\"modal\",\"tooltip\",\"popover\",\"scrollspy\",\"tab\",\"affix\"],\"configFilePath\":\"/Users/cipriantibulca/repos/wordgame/node_modules/bootstrap-loader/.bootstraprc-3-default\",\"bootstrapPath\":\"/Users/cipriantibulca/repos/wordgame/node_modules/bootstrap-sass\",\"bootstrapRelPath\":\"../bootstrap-sass\"}!./no-op.js");
+			module.hot.accept("!!./../css-loader/index.js!./../resolve-url-loader/index.js!./../sass-loader/index.js?sourceMap!./lib/bootstrap.styles.loader.js?{\"bootstrapVersion\":3,\"useCustomIconFontPath\":false,\"extractStyles\":false,\"styleLoaders\":[\"style\",\"css\",\"sass\"],\"styles\":[\"mixins\",\"normalize\",\"print\",\"glyphicons\",\"scaffolding\",\"type\",\"code\",\"grid\",\"tables\",\"forms\",\"buttons\",\"component-animations\",\"dropdowns\",\"button-groups\",\"input-groups\",\"navs\",\"navbar\",\"breadcrumbs\",\"pagination\",\"pager\",\"labels\",\"badges\",\"jumbotron\",\"thumbnails\",\"alerts\",\"progress-bars\",\"media\",\"list-group\",\"panels\",\"wells\",\"responsive-embed\",\"close\",\"modals\",\"tooltip\",\"popovers\",\"carousel\",\"utilities\",\"responsive-utilities\"],\"scripts\":[\"transition\",\"alert\",\"button\",\"carousel\",\"collapse\",\"dropdown\",\"modal\",\"tooltip\",\"popover\",\"scrollspy\",\"tab\",\"affix\"],\"configFilePath\":\"e:/Work/wordgame/node_modules/bootstrap-loader/.bootstraprc-3-default\",\"bootstrapPath\":\"e:/Work/wordgame/node_modules/bootstrap-sass\",\"bootstrapRelPath\":\"../bootstrap-sass\"}!./no-op.js", function() {
+				var newContent = require("!!./../css-loader/index.js!./../resolve-url-loader/index.js!./../sass-loader/index.js?sourceMap!./lib/bootstrap.styles.loader.js?{\"bootstrapVersion\":3,\"useCustomIconFontPath\":false,\"extractStyles\":false,\"styleLoaders\":[\"style\",\"css\",\"sass\"],\"styles\":[\"mixins\",\"normalize\",\"print\",\"glyphicons\",\"scaffolding\",\"type\",\"code\",\"grid\",\"tables\",\"forms\",\"buttons\",\"component-animations\",\"dropdowns\",\"button-groups\",\"input-groups\",\"navs\",\"navbar\",\"breadcrumbs\",\"pagination\",\"pager\",\"labels\",\"badges\",\"jumbotron\",\"thumbnails\",\"alerts\",\"progress-bars\",\"media\",\"list-group\",\"panels\",\"wells\",\"responsive-embed\",\"close\",\"modals\",\"tooltip\",\"popovers\",\"carousel\",\"utilities\",\"responsive-utilities\"],\"scripts\":[\"transition\",\"alert\",\"button\",\"carousel\",\"collapse\",\"dropdown\",\"modal\",\"tooltip\",\"popover\",\"scrollspy\",\"tab\",\"affix\"],\"configFilePath\":\"e:/Work/wordgame/node_modules/bootstrap-loader/.bootstraprc-3-default\",\"bootstrapPath\":\"e:/Work/wordgame/node_modules/bootstrap-sass\",\"bootstrapRelPath\":\"../bootstrap-sass\"}!./no-op.js");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -472,10 +472,7 @@
 /* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: transition.js v3.3.7
 	 * http://getbootstrap.com/javascript/#transitions
 	 * ========================================================================
@@ -535,7 +532,7 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 14 */
@@ -10361,10 +10358,7 @@
 /* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: alert.js v3.3.7
 	 * http://getbootstrap.com/javascript/#alerts
 	 * ========================================================================
@@ -10459,16 +10453,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: button.js v3.3.7
 	 * http://getbootstrap.com/javascript/#buttons
 	 * ========================================================================
@@ -10594,16 +10585,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: carousel.js v3.3.7
 	 * http://getbootstrap.com/javascript/#carousel
 	 * ========================================================================
@@ -10841,16 +10829,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: collapse.js v3.3.7
 	 * http://getbootstrap.com/javascript/#collapse
 	 * ========================================================================
@@ -11063,16 +11048,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: dropdown.js v3.3.7
 	 * http://getbootstrap.com/javascript/#dropdowns
 	 * ========================================================================
@@ -11238,16 +11220,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: modal.js v3.3.7
 	 * http://getbootstrap.com/javascript/#modals
 	 * ========================================================================
@@ -11587,16 +11566,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: tooltip.js v3.3.7
 	 * http://getbootstrap.com/javascript/#tooltip
 	 * Inspired by the original jQuery.tipsy by Jason Frame
@@ -12117,16 +12093,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: popover.js v3.3.7
 	 * http://getbootstrap.com/javascript/#popovers
 	 * ========================================================================
@@ -12235,16 +12208,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: scrollspy.js v3.3.7
 	 * http://getbootstrap.com/javascript/#scrollspy
 	 * ========================================================================
@@ -12417,16 +12387,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: tab.js v3.3.7
 	 * http://getbootstrap.com/javascript/#tabs
 	 * ========================================================================
@@ -12582,16 +12549,13 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
-
-	/* ========================================================================
+	/* WEBPACK VAR INJECTION */(function(jQuery) {/* ========================================================================
 	 * Bootstrap: affix.js v3.3.7
 	 * http://getbootstrap.com/javascript/#affix
 	 * ========================================================================
@@ -12754,7 +12718,7 @@
 
 	}(jQuery);
 
-
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ },
 /* 26 */
@@ -45732,15 +45696,8 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var service_1 = __webpack_require__(33);
-	var testWords = [
-	    { unmangled: 'pizza', mangled: 'zpaiz' },
-	    { unmangled: 'milk', mangled: 'klmi' },
-	    { unmangled: 'egg', mangled: 'geg' },
-	    { unmangled: 'pasta', mangled: 'aastp' },
-	    { unmangled: 'soup', mangled: 'posu' },
-	    { unmangled: 'steak', mangled: 'keast' },
-	    { unmangled: 'salad', mangled: 'laads' },
-	];
+	var knuth_shuffle_1 = __webpack_require__(85);
+	var testWords = ['pizza', 'milk', 'egg', 'pasta', 'soup', 'steak', 'salad'];
 	var WordsFeedMockService = (function (_super) {
 	    __extends(WordsFeedMockService, _super);
 	    WordsFeedMockService.$inject = ["$http", "$q"];
@@ -45752,13 +45709,26 @@
 	        return _this;
 	    }
 	    WordsFeedMockService.prototype.getNextWord = function () {
-	        var _this = this;
 	        var deferred = this.$q.defer();
+	        var word = this.getWord();
+	        setTimeout(function () { deferred.resolve({ data: word }); }, 1000);
+	        return deferred.promise;
+	    };
+	    WordsFeedMockService.prototype.getCurrentIndex = function () {
 	        if (this.currentIndex + 1 > testWords.length) {
 	            this.currentIndex = 0;
 	        }
-	        setTimeout(function () { deferred.resolve({ data: testWords[_this.currentIndex++] }); }, 1000);
-	        return deferred.promise;
+	        return this.currentIndex++;
+	    };
+	    WordsFeedMockService.prototype.getWord = function () {
+	        var text = testWords[this.getCurrentIndex()];
+	        return {
+	            unmangled: text,
+	            mangled: this.shuffleText(text)
+	        };
+	    };
+	    WordsFeedMockService.prototype.shuffleText = function (word) {
+	        return knuth_shuffle_1.knuthShuffle(word.split('')).join('');
 	    };
 	    return WordsFeedMockService;
 	}(service_1.HttpService));
@@ -45955,7 +45925,7 @@
 	 */
 
 	exports.Manager = __webpack_require__(52);
-	exports.Socket = __webpack_require__(82);
+	exports.Socket = __webpack_require__(80);
 
 
 /***/ },
@@ -49024,14 +48994,14 @@
 	 */
 
 	var eio = __webpack_require__(53);
-	var Socket = __webpack_require__(82);
-	var Emitter = __webpack_require__(70);
+	var Socket = __webpack_require__(80);
+	var Emitter = __webpack_require__(71);
 	var parser = __webpack_require__(41);
-	var on = __webpack_require__(84);
-	var bind = __webpack_require__(85);
+	var on = __webpack_require__(82);
+	var bind = __webpack_require__(83);
 	var debug = __webpack_require__(37)('socket.io-client:manager');
-	var indexOf = __webpack_require__(80);
-	var Backoff = __webpack_require__(86);
+	var indexOf = __webpack_require__(78);
+	var Backoff = __webpack_require__(84);
 
 	/**
 	 * IE6+ hasOwnProperty
@@ -49613,13 +49583,13 @@
 	 */
 
 	var transports = __webpack_require__(56);
-	var Emitter = __webpack_require__(70);
-	var debug = __webpack_require__(74)('engine.io-client:socket');
-	var index = __webpack_require__(80);
+	var Emitter = __webpack_require__(71);
+	var debug = __webpack_require__(37)('engine.io-client:socket');
+	var index = __webpack_require__(78);
 	var parser = __webpack_require__(62);
 	var parseuri = __webpack_require__(36);
-	var parsejson = __webpack_require__(81);
-	var parseqs = __webpack_require__(71);
+	var parsejson = __webpack_require__(79);
+	var parseqs = __webpack_require__(72);
 
 	/**
 	 * Module exports.
@@ -50359,8 +50329,8 @@
 
 	var XMLHttpRequest = __webpack_require__(57);
 	var XHR = __webpack_require__(59);
-	var JSONP = __webpack_require__(77);
-	var websocket = __webpack_require__(78);
+	var JSONP = __webpack_require__(75);
+	var websocket = __webpack_require__(76);
 
 	/**
 	 * Export transports.
@@ -50486,9 +50456,9 @@
 
 	var XMLHttpRequest = __webpack_require__(57);
 	var Polling = __webpack_require__(60);
-	var Emitter = __webpack_require__(70);
-	var inherit = __webpack_require__(72);
-	var debug = __webpack_require__(74)('engine.io-client:polling-xhr');
+	var Emitter = __webpack_require__(71);
+	var inherit = __webpack_require__(73);
+	var debug = __webpack_require__(37)('engine.io-client:polling-xhr');
 
 	/**
 	 * Module exports.
@@ -50916,11 +50886,11 @@
 	 */
 
 	var Transport = __webpack_require__(61);
-	var parseqs = __webpack_require__(71);
+	var parseqs = __webpack_require__(72);
 	var parser = __webpack_require__(62);
-	var inherit = __webpack_require__(72);
-	var yeast = __webpack_require__(73);
-	var debug = __webpack_require__(74)('engine.io-client:polling');
+	var inherit = __webpack_require__(73);
+	var yeast = __webpack_require__(74);
+	var debug = __webpack_require__(37)('engine.io-client:polling');
 
 	/**
 	 * Module exports.
@@ -51167,7 +51137,7 @@
 	 */
 
 	var parser = __webpack_require__(62);
-	var Emitter = __webpack_require__(70);
+	var Emitter = __webpack_require__(71);
 
 	/**
 	 * Module exports.
@@ -51331,13 +51301,13 @@
 
 	var keys = __webpack_require__(63);
 	var hasBinary = __webpack_require__(64);
-	var sliceBuffer = __webpack_require__(65);
-	var after = __webpack_require__(66);
-	var utf8 = __webpack_require__(67);
+	var sliceBuffer = __webpack_require__(66);
+	var after = __webpack_require__(67);
+	var utf8 = __webpack_require__(68);
 
 	var base64encoder;
 	if (global && global.ArrayBuffer) {
-	  base64encoder = __webpack_require__(68);
+	  base64encoder = __webpack_require__(69);
 	}
 
 	/**
@@ -51395,7 +51365,7 @@
 	 * Create a blob api even for blob builder when vendor prefixes exist
 	 */
 
-	var Blob = __webpack_require__(69);
+	var Blob = __webpack_require__(70);
 
 	/**
 	 * Encodes a packet.
@@ -51971,7 +51941,7 @@
 	 * Module requirements.
 	 */
 
-	var isArray = __webpack_require__(50);
+	var isArray = __webpack_require__(65);
 
 	/**
 	 * Module exports.
@@ -52032,6 +52002,15 @@
 /* 65 */
 /***/ function(module, exports) {
 
+	module.exports = Array.isArray || function (arr) {
+	  return Object.prototype.toString.call(arr) == '[object Array]';
+	};
+
+
+/***/ },
+/* 66 */
+/***/ function(module, exports) {
+
 	/**
 	 * An abstraction for slicing an arraybuffer even when
 	 * ArrayBuffer.prototype.slice is not supported
@@ -52064,7 +52043,7 @@
 
 
 /***/ },
-/* 66 */
+/* 67 */
 /***/ function(module, exports) {
 
 	module.exports = after
@@ -52098,7 +52077,7 @@
 
 
 /***/ },
-/* 67 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module, global) {/*! https://mths.be/wtf8 v1.0.0 by @mathias */
@@ -52337,7 +52316,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(46)(module), (function() { return this; }())))
 
 /***/ },
-/* 68 */
+/* 69 */
 /***/ function(module, exports) {
 
 	/*
@@ -52410,7 +52389,7 @@
 
 
 /***/ },
-/* 69 */
+/* 70 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -52513,7 +52492,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 70 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -52682,7 +52661,7 @@
 
 
 /***/ },
-/* 71 */
+/* 72 */
 /***/ function(module, exports) {
 
 	/**
@@ -52725,7 +52704,7 @@
 
 
 /***/ },
-/* 72 */
+/* 73 */
 /***/ function(module, exports) {
 
 	
@@ -52737,7 +52716,7 @@
 	};
 
 /***/ },
-/* 73 */
+/* 74 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -52811,552 +52790,7 @@
 
 
 /***/ },
-/* 74 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {
-	/**
-	 * This is the web browser implementation of `debug()`.
-	 *
-	 * Expose `debug()` as the module.
-	 */
-
-	exports = module.exports = __webpack_require__(75);
-	exports.log = log;
-	exports.formatArgs = formatArgs;
-	exports.save = save;
-	exports.load = load;
-	exports.useColors = useColors;
-	exports.storage = 'undefined' != typeof chrome
-	               && 'undefined' != typeof chrome.storage
-	                  ? chrome.storage.local
-	                  : localstorage();
-
-	/**
-	 * Colors.
-	 */
-
-	exports.colors = [
-	  'lightseagreen',
-	  'forestgreen',
-	  'goldenrod',
-	  'dodgerblue',
-	  'darkorchid',
-	  'crimson'
-	];
-
-	/**
-	 * Currently only WebKit-based Web Inspectors, Firefox >= v31,
-	 * and the Firebug extension (any Firefox version) are known
-	 * to support "%c" CSS customizations.
-	 *
-	 * TODO: add a `localStorage` variable to explicitly enable/disable colors
-	 */
-
-	function useColors() {
-	  // is webkit? http://stackoverflow.com/a/16459606/376773
-	  // document is undefined in react-native: https://github.com/facebook/react-native/pull/1632
-	  return (typeof document !== 'undefined' && 'WebkitAppearance' in document.documentElement.style) ||
-	    // is firebug? http://stackoverflow.com/a/398120/376773
-	    (window.console && (console.firebug || (console.exception && console.table))) ||
-	    // is firefox >= v31?
-	    // https://developer.mozilla.org/en-US/docs/Tools/Web_Console#Styling_messages
-	    (navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/) && parseInt(RegExp.$1, 10) >= 31);
-	}
-
-	/**
-	 * Map %j to `JSON.stringify()`, since no Web Inspectors do that by default.
-	 */
-
-	exports.formatters.j = function(v) {
-	  try {
-	    return JSON.stringify(v);
-	  } catch (err) {
-	    return '[UnexpectedJSONParseError]: ' + err.message;
-	  }
-	};
-
-
-	/**
-	 * Colorize log arguments if enabled.
-	 *
-	 * @api public
-	 */
-
-	function formatArgs() {
-	  var args = arguments;
-	  var useColors = this.useColors;
-
-	  args[0] = (useColors ? '%c' : '')
-	    + this.namespace
-	    + (useColors ? ' %c' : ' ')
-	    + args[0]
-	    + (useColors ? '%c ' : ' ')
-	    + '+' + exports.humanize(this.diff);
-
-	  if (!useColors) return args;
-
-	  var c = 'color: ' + this.color;
-	  args = [args[0], c, 'color: inherit'].concat(Array.prototype.slice.call(args, 1));
-
-	  // the final "%c" is somewhat tricky, because there could be other
-	  // arguments passed either before or after the %c, so we need to
-	  // figure out the correct index to insert the CSS into
-	  var index = 0;
-	  var lastC = 0;
-	  args[0].replace(/%[a-z%]/g, function(match) {
-	    if ('%%' === match) return;
-	    index++;
-	    if ('%c' === match) {
-	      // we only are interested in the *last* %c
-	      // (the user may have provided their own)
-	      lastC = index;
-	    }
-	  });
-
-	  args.splice(lastC, 0, c);
-	  return args;
-	}
-
-	/**
-	 * Invokes `console.log()` when available.
-	 * No-op when `console.log` is not a "function".
-	 *
-	 * @api public
-	 */
-
-	function log() {
-	  // this hackery is required for IE8/9, where
-	  // the `console.log` function doesn't have 'apply'
-	  return 'object' === typeof console
-	    && console.log
-	    && Function.prototype.apply.call(console.log, console, arguments);
-	}
-
-	/**
-	 * Save `namespaces`.
-	 *
-	 * @param {String} namespaces
-	 * @api private
-	 */
-
-	function save(namespaces) {
-	  try {
-	    if (null == namespaces) {
-	      exports.storage.removeItem('debug');
-	    } else {
-	      exports.storage.debug = namespaces;
-	    }
-	  } catch(e) {}
-	}
-
-	/**
-	 * Load `namespaces`.
-	 *
-	 * @return {String} returns the previously persisted debug modes
-	 * @api private
-	 */
-
-	function load() {
-	  var r;
-	  try {
-	    return exports.storage.debug;
-	  } catch(e) {}
-
-	  // If debug isn't set in LS, and we're in Electron, try to load $DEBUG
-	  if (typeof process !== 'undefined' && 'env' in process) {
-	    return process.env.DEBUG;
-	  }
-	}
-
-	/**
-	 * Enable namespaces listed in `localStorage.debug` initially.
-	 */
-
-	exports.enable(load());
-
-	/**
-	 * Localstorage attempts to return the localstorage.
-	 *
-	 * This is necessary because safari throws
-	 * when a user disables cookies/localstorage
-	 * and you attempt to access it.
-	 *
-	 * @return {LocalStorage}
-	 * @api private
-	 */
-
-	function localstorage(){
-	  try {
-	    return window.localStorage;
-	  } catch (e) {}
-	}
-
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(38)))
-
-/***/ },
 /* 75 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/**
-	 * This is the common logic for both the Node.js and web browser
-	 * implementations of `debug()`.
-	 *
-	 * Expose `debug()` as the module.
-	 */
-
-	exports = module.exports = debug.debug = debug;
-	exports.coerce = coerce;
-	exports.disable = disable;
-	exports.enable = enable;
-	exports.enabled = enabled;
-	exports.humanize = __webpack_require__(76);
-
-	/**
-	 * The currently active debug mode names, and names to skip.
-	 */
-
-	exports.names = [];
-	exports.skips = [];
-
-	/**
-	 * Map of special "%n" handling functions, for the debug "format" argument.
-	 *
-	 * Valid key names are a single, lowercased letter, i.e. "n".
-	 */
-
-	exports.formatters = {};
-
-	/**
-	 * Previously assigned color.
-	 */
-
-	var prevColor = 0;
-
-	/**
-	 * Previous log timestamp.
-	 */
-
-	var prevTime;
-
-	/**
-	 * Select a color.
-	 *
-	 * @return {Number}
-	 * @api private
-	 */
-
-	function selectColor() {
-	  return exports.colors[prevColor++ % exports.colors.length];
-	}
-
-	/**
-	 * Create a debugger with the given `namespace`.
-	 *
-	 * @param {String} namespace
-	 * @return {Function}
-	 * @api public
-	 */
-
-	function debug(namespace) {
-
-	  // define the `disabled` version
-	  function disabled() {
-	  }
-	  disabled.enabled = false;
-
-	  // define the `enabled` version
-	  function enabled() {
-
-	    var self = enabled;
-
-	    // set `diff` timestamp
-	    var curr = +new Date();
-	    var ms = curr - (prevTime || curr);
-	    self.diff = ms;
-	    self.prev = prevTime;
-	    self.curr = curr;
-	    prevTime = curr;
-
-	    // add the `color` if not set
-	    if (null == self.useColors) self.useColors = exports.useColors();
-	    if (null == self.color && self.useColors) self.color = selectColor();
-
-	    var args = new Array(arguments.length);
-	    for (var i = 0; i < args.length; i++) {
-	      args[i] = arguments[i];
-	    }
-
-	    args[0] = exports.coerce(args[0]);
-
-	    if ('string' !== typeof args[0]) {
-	      // anything else let's inspect with %o
-	      args = ['%o'].concat(args);
-	    }
-
-	    // apply any `formatters` transformations
-	    var index = 0;
-	    args[0] = args[0].replace(/%([a-z%])/g, function(match, format) {
-	      // if we encounter an escaped % then don't increase the array index
-	      if (match === '%%') return match;
-	      index++;
-	      var formatter = exports.formatters[format];
-	      if ('function' === typeof formatter) {
-	        var val = args[index];
-	        match = formatter.call(self, val);
-
-	        // now we need to remove `args[index]` since it's inlined in the `format`
-	        args.splice(index, 1);
-	        index--;
-	      }
-	      return match;
-	    });
-
-	    // apply env-specific formatting
-	    args = exports.formatArgs.apply(self, args);
-
-	    var logFn = enabled.log || exports.log || console.log.bind(console);
-	    logFn.apply(self, args);
-	  }
-	  enabled.enabled = true;
-
-	  var fn = exports.enabled(namespace) ? enabled : disabled;
-
-	  fn.namespace = namespace;
-
-	  return fn;
-	}
-
-	/**
-	 * Enables a debug mode by namespaces. This can include modes
-	 * separated by a colon and wildcards.
-	 *
-	 * @param {String} namespaces
-	 * @api public
-	 */
-
-	function enable(namespaces) {
-	  exports.save(namespaces);
-
-	  var split = (namespaces || '').split(/[\s,]+/);
-	  var len = split.length;
-
-	  for (var i = 0; i < len; i++) {
-	    if (!split[i]) continue; // ignore empty strings
-	    namespaces = split[i].replace(/[\\^$+?.()|[\]{}]/g, '\\$&').replace(/\*/g, '.*?');
-	    if (namespaces[0] === '-') {
-	      exports.skips.push(new RegExp('^' + namespaces.substr(1) + '$'));
-	    } else {
-	      exports.names.push(new RegExp('^' + namespaces + '$'));
-	    }
-	  }
-	}
-
-	/**
-	 * Disable debug output.
-	 *
-	 * @api public
-	 */
-
-	function disable() {
-	  exports.enable('');
-	}
-
-	/**
-	 * Returns true if the given mode name is enabled, false otherwise.
-	 *
-	 * @param {String} name
-	 * @return {Boolean}
-	 * @api public
-	 */
-
-	function enabled(name) {
-	  var i, len;
-	  for (i = 0, len = exports.skips.length; i < len; i++) {
-	    if (exports.skips[i].test(name)) {
-	      return false;
-	    }
-	  }
-	  for (i = 0, len = exports.names.length; i < len; i++) {
-	    if (exports.names[i].test(name)) {
-	      return true;
-	    }
-	  }
-	  return false;
-	}
-
-	/**
-	 * Coerce `val`.
-	 *
-	 * @param {Mixed} val
-	 * @return {Mixed}
-	 * @api private
-	 */
-
-	function coerce(val) {
-	  if (val instanceof Error) return val.stack || val.message;
-	  return val;
-	}
-
-
-/***/ },
-/* 76 */
-/***/ function(module, exports) {
-
-	/**
-	 * Helpers.
-	 */
-
-	var s = 1000
-	var m = s * 60
-	var h = m * 60
-	var d = h * 24
-	var y = d * 365.25
-
-	/**
-	 * Parse or format the given `val`.
-	 *
-	 * Options:
-	 *
-	 *  - `long` verbose formatting [false]
-	 *
-	 * @param {String|Number} val
-	 * @param {Object} options
-	 * @throws {Error} throw an error if val is not a non-empty string or a number
-	 * @return {String|Number}
-	 * @api public
-	 */
-
-	module.exports = function (val, options) {
-	  options = options || {}
-	  var type = typeof val
-	  if (type === 'string' && val.length > 0) {
-	    return parse(val)
-	  } else if (type === 'number' && isNaN(val) === false) {
-	    return options.long ?
-				fmtLong(val) :
-				fmtShort(val)
-	  }
-	  throw new Error('val is not a non-empty string or a valid number. val=' + JSON.stringify(val))
-	}
-
-	/**
-	 * Parse the given `str` and return milliseconds.
-	 *
-	 * @param {String} str
-	 * @return {Number}
-	 * @api private
-	 */
-
-	function parse(str) {
-	  str = String(str)
-	  if (str.length > 10000) {
-	    return
-	  }
-	  var match = /^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(str)
-	  if (!match) {
-	    return
-	  }
-	  var n = parseFloat(match[1])
-	  var type = (match[2] || 'ms').toLowerCase()
-	  switch (type) {
-	    case 'years':
-	    case 'year':
-	    case 'yrs':
-	    case 'yr':
-	    case 'y':
-	      return n * y
-	    case 'days':
-	    case 'day':
-	    case 'd':
-	      return n * d
-	    case 'hours':
-	    case 'hour':
-	    case 'hrs':
-	    case 'hr':
-	    case 'h':
-	      return n * h
-	    case 'minutes':
-	    case 'minute':
-	    case 'mins':
-	    case 'min':
-	    case 'm':
-	      return n * m
-	    case 'seconds':
-	    case 'second':
-	    case 'secs':
-	    case 'sec':
-	    case 's':
-	      return n * s
-	    case 'milliseconds':
-	    case 'millisecond':
-	    case 'msecs':
-	    case 'msec':
-	    case 'ms':
-	      return n
-	    default:
-	      return undefined
-	  }
-	}
-
-	/**
-	 * Short format for `ms`.
-	 *
-	 * @param {Number} ms
-	 * @return {String}
-	 * @api private
-	 */
-
-	function fmtShort(ms) {
-	  if (ms >= d) {
-	    return Math.round(ms / d) + 'd'
-	  }
-	  if (ms >= h) {
-	    return Math.round(ms / h) + 'h'
-	  }
-	  if (ms >= m) {
-	    return Math.round(ms / m) + 'm'
-	  }
-	  if (ms >= s) {
-	    return Math.round(ms / s) + 's'
-	  }
-	  return ms + 'ms'
-	}
-
-	/**
-	 * Long format for `ms`.
-	 *
-	 * @param {Number} ms
-	 * @return {String}
-	 * @api private
-	 */
-
-	function fmtLong(ms) {
-	  return plural(ms, d, 'day') ||
-	    plural(ms, h, 'hour') ||
-	    plural(ms, m, 'minute') ||
-	    plural(ms, s, 'second') ||
-	    ms + ' ms'
-	}
-
-	/**
-	 * Pluralization helper.
-	 */
-
-	function plural(ms, n, name) {
-	  if (ms < n) {
-	    return
-	  }
-	  if (ms < n * 1.5) {
-	    return Math.floor(ms / n) + ' ' + name
-	  }
-	  return Math.ceil(ms / n) + ' ' + name + 's'
-	}
-
-
-/***/ },
-/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -53365,7 +52799,7 @@
 	 */
 
 	var Polling = __webpack_require__(60);
-	var inherit = __webpack_require__(72);
+	var inherit = __webpack_require__(73);
 
 	/**
 	 * Module exports.
@@ -53594,7 +53028,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 78 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -53603,15 +53037,15 @@
 
 	var Transport = __webpack_require__(61);
 	var parser = __webpack_require__(62);
-	var parseqs = __webpack_require__(71);
-	var inherit = __webpack_require__(72);
-	var yeast = __webpack_require__(73);
-	var debug = __webpack_require__(74)('engine.io-client:websocket');
+	var parseqs = __webpack_require__(72);
+	var inherit = __webpack_require__(73);
+	var yeast = __webpack_require__(74);
+	var debug = __webpack_require__(37)('engine.io-client:websocket');
 	var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
 	var NodeWebSocket;
 	if (typeof window === 'undefined') {
 	  try {
-	    NodeWebSocket = __webpack_require__(79);
+	    NodeWebSocket = __webpack_require__(77);
 	  } catch (e) { }
 	}
 
@@ -53886,13 +53320,13 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 79 */
+/* 77 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 80 */
+/* 78 */
 /***/ function(module, exports) {
 
 	
@@ -53907,7 +53341,7 @@
 	};
 
 /***/ },
-/* 81 */
+/* 79 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -53945,7 +53379,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 82 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -53954,10 +53388,10 @@
 	 */
 
 	var parser = __webpack_require__(41);
-	var Emitter = __webpack_require__(70);
-	var toArray = __webpack_require__(83);
-	var on = __webpack_require__(84);
-	var bind = __webpack_require__(85);
+	var Emitter = __webpack_require__(71);
+	var toArray = __webpack_require__(81);
+	var on = __webpack_require__(82);
+	var bind = __webpack_require__(83);
 	var debug = __webpack_require__(37)('socket.io-client:socket');
 	var hasBin = __webpack_require__(64);
 
@@ -54370,7 +53804,7 @@
 
 
 /***/ },
-/* 83 */
+/* 81 */
 /***/ function(module, exports) {
 
 	module.exports = toArray
@@ -54389,7 +53823,7 @@
 
 
 /***/ },
-/* 84 */
+/* 82 */
 /***/ function(module, exports) {
 
 	
@@ -54419,7 +53853,7 @@
 
 
 /***/ },
-/* 85 */
+/* 83 */
 /***/ function(module, exports) {
 
 	/**
@@ -54448,7 +53882,7 @@
 
 
 /***/ },
-/* 86 */
+/* 84 */
 /***/ function(module, exports) {
 
 	
@@ -54539,14 +53973,50 @@
 
 
 /***/ },
-/* 87 */
+/* 85 */
+/***/ function(module, exports) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {/*jshint -W054 */
+	(function (exports) {
+	  'use strict';
+
+	  // http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+	  function shuffle(array) {
+	    var currentIndex = array.length
+	      , temporaryValue
+	      , randomIndex
+	      ;
+
+	    // While there remain elements to shuffle...
+	    while (0 !== currentIndex) {
+
+	      // Pick a remaining element...
+	      randomIndex = Math.floor(Math.random() * currentIndex);
+	      currentIndex -= 1;
+
+	      // And swap it with the current element.
+	      temporaryValue = array[currentIndex];
+	      array[currentIndex] = array[randomIndex];
+	      array[randomIndex] = temporaryValue;
+	    }
+
+	    return array;
+	  }
+
+	  exports.knuthShuffle = shuffle;
+	}('undefined' !== typeof exports && exports || 'undefined' !== typeof window && window || global));
+
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(88);
+	__webpack_require__(87);
 
 
 /***/ },
-/* 88 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -54555,10 +54025,10 @@
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	__webpack_require__(89);
-	var component_1 = __webpack_require__(91);
-	var bindingTypes_1 = __webpack_require__(92);
-	var game_1 = __webpack_require__(93);
+	__webpack_require__(88);
+	var component_1 = __webpack_require__(90);
+	var bindingTypes_1 = __webpack_require__(91);
+	var game_1 = __webpack_require__(92);
 	var WordGameController = (function () {
 	    function WordGameController($scope, $timeout, wordsFeedService) {
 	        this.$timeout = $timeout;
@@ -54594,7 +54064,7 @@
 	        _this.scope = { name: bindingTypes_1.BindingType.ONE_WAY };
 	        _this.controllerAs = 'ctrl';
 	        _this.controller = WordGameController;
-	        _this.template = __webpack_require__(95);
+	        _this.template = __webpack_require__(94);
 	        return _this;
 	    }
 	    return WordGame;
@@ -54604,13 +54074,13 @@
 
 
 /***/ },
-/* 89 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(90);
+	var content = __webpack_require__(89);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(11)(content, {});
@@ -54630,7 +54100,7 @@
 	}
 
 /***/ },
-/* 90 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -54644,7 +54114,7 @@
 
 
 /***/ },
-/* 91 */
+/* 90 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -54659,7 +54129,7 @@
 
 
 /***/ },
-/* 92 */
+/* 91 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -54675,11 +54145,11 @@
 
 
 /***/ },
-/* 93 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var gamestep_1 = __webpack_require__(94);
+	var gamestep_1 = __webpack_require__(93);
 	var Game = (function () {
 	    function Game($timeout, wordsFeedService) {
 	        this.$timeout = $timeout;
@@ -54769,7 +54239,7 @@
 
 
 /***/ },
-/* 94 */
+/* 93 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -54788,7 +54258,7 @@
 
 
 /***/ },
-/* 95 */
+/* 94 */
 /***/ function(module, exports) {
 
 	module.exports = "<div component=\"WordGame\" class=\"wordgame\">\n    <div ng-if=\"ctrl.game\">\n        <div class=\"form-group\">\n            <label for=\"letters\">Letters:</label>\n            <span id=\"letters\" class=\"form-control\" disabled>\n                {{ ctrl.game.getWordLetters() }}\n            </span>\n        </div>\n        <div class=\"form-group\">\n            <label for=\"userInputWord\">Word:</label>\n            <input \n                type=\"text\"\n                id=\"userInputWord\"\n                name=\"userInputWord\"\n                ng-model=\"ctrl.inputText\" \n                ng-change=\"ctrl.inputChanged()\"\n                ng-class=\"{'wordMatch': ctrl.wordMatch, 'noWordMatch': !ctrl.wordMatch, 'form-control': true }\"\n            />\n        </div>\n        <div class=\"form-group gameProgress\" ng-if=\"ctrl.game.isInProgress\">\n            <div class=\"col-md-6\">\n                <label>Current word max score:</label>\n                <div class=\"score\">{{ctrl.game.getCurrentStepMaxScore()}}</div>\n                \n                <label>Current word score:</label>\n                <div class=\"score\" ng-class=\"{'wordMatchScore': ctrl.wordMatch, 'noWordMatchScore': !ctrl.wordMatch }\">\n                    {{ctrl.game.getCurrentStepScore()}}\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <label>Remaining time:</label>\n                <span>{{ctrl.game.getRemainingTime()}}</span>\n            </div>\n        </div>\n        <div>\n            <label>{{ctrl.game.isInProgress ? 'Total Score' : 'Final score'}}:</label>\n            <div class=\"score\" ng-class=\"{'wordMatchScore': ctrl.wordMatch, 'noWordMatchScore': !ctrl.wordMatch }\">\n                {{ctrl.game.getTotalScore()}}\n            </div>\n        </div>        \n    </div>\n    <button class=\"btn btn-primary startButton\" \n            ng-click=\"ctrl.startGame()\" \n            ng-disabled=\"ctrl.game.isInProgress\">\n        Start\n    </button>\n</div>"
