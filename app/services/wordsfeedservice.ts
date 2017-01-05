@@ -1,18 +1,11 @@
 import {HttpService} from "../common/service";
 import {IWordsFeedService} from "./iwordsfeedservice";
 import {Word} from "../entities/word";
+import {knuthShuffle} from "knuth-shuffle"
 
-const testWords: Word[] = [
-    { unmangled: 'pizza', mangled: 'zpaiz' },
-    { unmangled: 'milk', mangled: 'klmi' },
-    { unmangled: 'egg', mangled: 'geg' },
-    { unmangled: 'pasta', mangled: 'aastp' },
-    { unmangled: 'soup', mangled: 'posu' },
-    { unmangled: 'steak', mangled: 'keast' },
-    { unmangled: 'salad', mangled: 'laads' },
-];
+const testWords: string[] = [ 'pizza', 'milk', 'egg', 'pasta', 'soup', 'steak', 'salad'];
 
-export class WordsFeedMockService extends HttpService 
+export class WordsFeedMockService extends HttpService
                               implements IWordsFeedService {
     private currentIndex: number;
 
@@ -25,15 +18,33 @@ export class WordsFeedMockService extends HttpService
     }
 
     public getNextWord(): ng.IPromise<Word> {
-        var deferred = this.$q.defer();
-        
+        const deferred: ng.IDeferred<{}> = this.$q.defer();
+
+        const word = this.getWord();
+        setTimeout(() => { deferred.resolve({ data: word }); }, 1000);
+
+        return deferred.promise;
+    }
+
+    private getCurrentIndex(): number {
         if (this.currentIndex + 1 > testWords.length) {
             this.currentIndex = 0;
         }
 
-        setTimeout(() => { deferred.resolve({ data: testWords[this.currentIndex++] }); }, 1000);
- 
-        return deferred.promise;
+        return this.currentIndex++;
+    }
+
+    private getWord(): Word {
+        const text: string = testWords[this.getCurrentIndex()];
+
+        return {
+            unmangled: text,
+            mangled: this.shuffleText(text)
+        };
+    }
+
+    private shuffleText(word: string): string {
+        return knuthShuffle(word.split('')).join('');
     }
 }
 
